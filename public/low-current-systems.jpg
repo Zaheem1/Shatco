@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#1a1a1a"/>
+  <g>
+    <!-- Low Current System Diagram -->
+    <!-- Circuit Board Background -->
+    <rect x="100" y="100" width="600" height="400" fill="#222" stroke="#444" stroke-width="2" />
+    
+    <!-- Circuit Traces -->
+    <g stroke="#666" stroke-width="3" fill="none">
+      <path d="M 150,150 L 350,150 L 350,250 L 550,250" />
+      <path d="M 150,200 L 300,200 L 300,300 L 550,300" />
+      <path d="M 150,250 L 250,250 L 250,350 L 550,350" />
+      <path d="M 150,300 L 200,300 L 200,400 L 550,400" />
+      <path d="M 550,150 L 650,150 L 650,400" />
+    </g>
+    
+    <!-- Components -->
+    <g>
+      <!-- Microcontroller -->
+      <rect x="350" y="300" width="100" height="100" fill="#333" stroke="#555" stroke-width="2" />
+      <circle cx="370" cy="320" r="5" fill="#888" />
+      <circle cx="390" cy="320" r="5" fill="#888" />
+      <circle cx="410" cy="320" r="5" fill="#888" />
+      <circle cx="430" cy="320" r="5" fill="#888" />
+      
+      <circle cx="370" cy="380" r="5" fill="#888" />
+      <circle cx="390" cy="380" r="5" fill="#888" />
+      <circle cx="410" cy="380" r="5" fill="#888" />
+      <circle cx="430" cy="380" r="5" fill="#888" />
+      
+      <!-- Sensors -->
+      <rect x="150" y="150" width="30" height="30" fill="#444" stroke="#666" stroke-width="2" />
+      <rect x="150" y="200" width="30" height="30" fill="#444" stroke="#666" stroke-width="2" />
+      <rect x="150" y="250" width="30" height="30" fill="#444" stroke="#666" stroke-width="2" />
+      <rect x="150" y="300" width="30" height="30" fill="#444" stroke="#666" stroke-width="2" />
+      
+      <!-- Output Devices -->
+      <rect x="550" y="150" width="30" height="30" fill="#444" stroke="#666" stroke-width="2" />
+      <rect x="550" y="200" width="30" height="30" fill="#444" stroke="#666" stroke-width="2" />
+      <rect x="550" y="250" width="30" height="30" fill="#444" stroke="#666" stroke-width="2" />
+      <rect x="550" y="300" width="30" height="30" fill="#444" stroke="#666" stroke-width="2" />
+      <rect x="550" y="350" width="30" height="30" fill="#444" stroke="#666" stroke-width="2" />
+      <rect x="550" y="400" width="30" height="30" fill="#444" stroke="#666" stroke-width="2" />
+      
+      <!-- Power Supply -->
+      <rect x="250" y="150" width="60" height="40" fill="#333" stroke="#555" stroke-width="2" />
+      <text x="280" y="175" text-anchor="middle" font-family="Arial" font-size="10" fill="#aaa">PSU</text>
+    </g>
+    
+    <!-- Connection Points -->
+    <g fill="#888">
+      <circle cx="350" cy="150" r="4" />
+      <circle cx="350" cy="250" r="4" />
+      <circle cx="300" cy="200" r="4" />
+      <circle cx="300" cy="300" r="4" />
+      <circle cx="250" cy="250" r="4" />
+      <circle cx="250" cy="350" r="4" />
+      <circle cx="200" cy="300" r="4" />
+      <circle cx="200" cy="400" r="4" />
+      <circle cx="550" cy="150" r="4" />
+      <circle cx="550" cy="250" r="4" />
+      <circle cx="550" cy="300" r="4" />
+      <circle cx="550" cy="350" r="4" />
+      <circle cx="550" cy="400" r="4" />
+      <circle cx="650" cy="150" r="4" />
+      <circle cx="650" cy="400" r="4" />
+    </g>
+    
+    <!-- Labels -->
+    <g font-family="Arial" font-size="12" fill="#ccc">
+      <text x="165" y="140">Sensors</text>
+      <text x="550" y="140">Outputs</text>
+      <text x="400" y="290">Controller</text>
+    </g>
+    
+    <!-- Text Label -->
+    <text x="400" y="520" text-anchor="middle" font-family="Arial" font-size="24" fill="#ffffff">Low Current System</text>
+  </g>
+</svg>
