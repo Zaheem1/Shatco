@@ -1,9 +1,9 @@
 import '@/styles/globals.css'
-import { Metadata } from 'next'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Shatco - Premium Solutions',
-  description: 'Luxury services and premium solutions for your business',
+  title: 'SHATCO - Premium Engineering Solutions',
+  description: 'Premium engineering and technical solutions for your business',
 }
 
 export default function RootLayout({
@@ -13,8 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-sans">
-        {children}
+      <body className="font-sans bg-black-dark text-white min-h-screen">
+        <div className="bg-gradient-to-b from-black-dark via-black-dark/80 to-black-dark/90">
+          {children}
+        </div>
       </body>
     </html>
   )

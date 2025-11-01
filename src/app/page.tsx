@@ -17,11 +17,15 @@ export default function Home() {
       <Hero />
       <About />
       
-      {/* Gradient Section Combining Services and Projects */}
+      {/* Services and Projects Sections */}
       <div className="relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-gray-dark via-gray to-gray-light opacity-10 z-0" />
-        <ProductsAndServices />
-        <Projects />
+        <div className="relative bg-black-dark">
+          <ProductsAndServices />
+        </div>
+        
+        <div className="relative bg-black">
+          <Projects />
+        </div>
       </div>
       
       <Contact />
